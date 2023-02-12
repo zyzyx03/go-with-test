@@ -9,5 +9,5 @@ func HelloAgain(name string) string {
 }
 
 func main() {
-	fmt.Println(HelloAgain("wan"))
+	fmt.Println(HelloAgain("World"))
 }

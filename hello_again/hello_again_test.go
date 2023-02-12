@@ -4,8 +4,8 @@ import "testing"
 
 func TestHelloAgain(t *testing.T) {
 	t.Run("saying hello to people", func(t *testing.T) {
-		got := HelloAgain("Wan")
-		want := "Hello, Wan"
+		got := HelloAgain("Zyzyx")
+		want := "Hello, Zyzyx"
 
 		if got != want {
 			t.Errorf("got %q want %q", got, want)
